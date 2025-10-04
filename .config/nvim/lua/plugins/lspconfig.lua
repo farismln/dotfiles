@@ -13,7 +13,7 @@ return {
         dependencies = { "mason.nvim" },
         config = function()
             require("mason-lspconfig").setup({
-                automatic_enable = { "lua_ls", "rust_analyzer", "solidity_ls_nomicfoundation" },
+                automatic_enable = { "lua_ls", "rust_analyzer", "solidity_ls_nomicfoundation", "pyright", "gopls" },
             })
         end,
     }
